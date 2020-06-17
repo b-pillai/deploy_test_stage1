@@ -21,13 +21,13 @@ https://www.trufflesuite.com/ganache
 
 https://www.youtube.com/watch?v=8wMKq7HvbKw
 
-## run the ganache
 
-create a simple smart contract
-```bash
+## Create a simple smart contract
+
+``bash
 pragma solidity >=0.4.21 <0.7.0;
 contract TestContract {}
-```
+``
 ## Create the migration file
 
 ``bash
@@ -35,7 +35,7 @@ const testContract = artifacts.require("TestContract");
 module.exports = function(deployer) {
   deployer.deploy(testContract);
 };
-````
+``
 
 ## Create the test file
 
@@ -47,19 +47,20 @@ contract('TestSmartContract', () => {
     assert(testContract.address !== '');
   });
 });
-````
+``
 
-## Run the ganache
+## Start the ganache
+
 ``bash
 ganache-cli
 ``
 
-## deploy the contract
+## Deploy the contract
 ``bash
 truffle migrate  (truffle migrate –reset)
 ``
 
-## run the test
+## Run the test
 
 ``bash
 truffle test
