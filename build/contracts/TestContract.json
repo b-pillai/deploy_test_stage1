@@ -1,0 +1,130 @@
+{
+  "contractName": "TestContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/_ethereum/test/contracts/TestContract.sol\":\"TestContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/_ethereum/test/contracts/TestContract.sol\":{\"keccak256\":\"0x7a29edcc39cf16888b43d91574095c2ecd147dcdcca471a8c389ad742f126b50\",\"urls\":[\"bzz-raw://626849003d52dd0bb878fa16f69167eda2d2d92a3f1e9ae44c9b0ef23aec7c02\",\"dweb:/ipfs/QmPUapX9ghXir4btS1pdiKmv5zfgvZLRSwKVRCQXMxDL5w\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158205ce6b3326ccdd7a62a18151d3c7fd944ea2851b998a96e4d1a8a06ed03789f2a64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158205ce6b3326ccdd7a62a18151d3c7fd944ea2851b998a96e4d1a8a06ed03789f2a64736f6c63430005100032",
+  "sourceMap": "34:24:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:24:1;;;;;;;",
+  "deployedSourceMap": "34:24:1:-;;;;;",
+  "source": "pragma solidity >=0.4.21 <0.7.0;\r\ncontract TestContract {}\r\n",
+  "sourcePath": "C:\\_ethereum\\test\\contracts\\TestContract.sol",
+  "ast": {
+    "absolutePath": "/C/_ethereum/test/contracts/TestContract.sol",
+    "exportedSymbols": {
+      "TestContract": [
+        59
+      ]
+    },
+    "id": 60,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 59,
+        "linearizedBaseContracts": [
+          59
+        ],
+        "name": "TestContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 60,
+        "src": "34:24:1"
+      }
+    ],
+    "src": "0:60:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/_ethereum/test/contracts/TestContract.sol",
+    "exportedSymbols": {
+      "TestContract": [
+        59
+      ]
+    },
+    "id": 60,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 59,
+        "linearizedBaseContracts": [
+          59
+        ],
+        "name": "TestContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 60,
+        "src": "34:24:1"
+      }
+    ],
+    "src": "0:60:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "1592365722628": {
+      "events": {},
+      "links": {},
+      "address": "0xf0E0db0F2737c3E52cB5428CfA4Cf8Bae8d330Fd",
+      "transactionHash": "0xe22d96729ebda406b901c9f38f76190f0265230faf02907a2f0763af55454ec1"
+    },
+    "1592366375347": {
+      "events": {},
+      "links": {},
+      "address": "0x68568B8c2D2609A96e6567bb238522a97FF90808",
+      "transactionHash": "0x902d3f6f07956eb0391d3f8ed49bfcb878b24ed02cb2c127c951d9bf336ed3dd"
+    },
+    "1592367655375": {
+      "events": {},
+      "links": {},
+      "address": "0xd4b48721eE1039Bd2e7BB12D3c656B45D72be3cC",
+      "transactionHash": "0xbd17c1b9e9c3ee993d40a08a50104d945d550867f54594eb6f0254244f36e0d3"
+    }
+  },
+  "schemaVersion": "3.2.0",
+  "updatedAt": "2020-06-17T04:21:42.990Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
