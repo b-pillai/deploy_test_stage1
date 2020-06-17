@@ -1,5 +1,3 @@
-# deploy_test_stage1
-Develope, deploy and test smart contract using truflee framework 
 Set up the environment for an ethereum based blockchain smart contract testing.
 I wanted to test out some of the concept I come up with for cross-blockchain asset transfer. I am planning to develop it with a smart contract to test out the concept. For that I need to set up the working environment first.
 First dependency to install is Truffle framework – is a is a development environment and a testing framework for Ethereum based blockchain network.
