@@ -21,22 +21,25 @@ https://www.trufflesuite.com/ganache
 
 https://www.youtube.com/watch?v=8wMKq7HvbKw
 
-run the ganache
+## run the ganache
 
 create a simple smart contract
 ```bash
 pragma solidity >=0.4.21 <0.7.0;
 contract TestContract {}
 ```
-Create the migration file
---------------- 
+## Create the migration file
+
+``bash
 const testContract = artifacts.require("TestContract");
 module.exports = function(deployer) {
   deployer.deploy(testContract);
 };
--------------------
-create the test file
-------------
+````
+
+## Create the test file
+
+``bash
 const TestContract = artifacts.require('TestContract');
 contract('TestSmartContract', () => {
   it('should be deployed', async () => {
@@ -44,19 +47,22 @@ contract('TestSmartContract', () => {
     assert(testContract.address !== '');
   });
 });
----------------
+````
 
-Run the ganache
+## Run the ganache
+``bash
 ganache-cli
+``
 
-deploy the contract
+## deploy the contract
+``bash
+truffle migrate  (truffle migrate –reset)
+``
 
-truffle migrate
+## run the test
 
-truffle migrate –reset
-
-run the test
-
+``bash
 truffle test
+``
 
 Test is very simple whether the address is not an empty string (https://youtu.be/8wMKq7HvbKw?t=1827).
