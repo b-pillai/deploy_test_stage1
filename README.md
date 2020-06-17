@@ -6,11 +6,17 @@ https://www.trufflesuite.com/
 npm install -g truffle
 
 Node.js
+
 https://nodejs.org/en/
+
 https://www.youtube.com/watch?v=3681ZYbDSSk&feature=youtu.be&t=8m53s
+
 Ganache – local instance of blockchain to run tests, execute commands, and inspect state.
+
 https://www.trufflesuite.com/ganache
+
 https://www.youtube.com/watch?v=8wMKq7HvbKw
+
 run the ganache
 
 create a simple smart contract
