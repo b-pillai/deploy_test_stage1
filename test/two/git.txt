@@ -1,0 +1,19 @@
+github.com
+babu.pillai@griffithuni.edu.au
+Kochu1234
+
+cd
+cd /c - change to c drive
+ls - to show the files
+
+git config --global user.name "b.pillai"
+
+git config --global user.email babu.pillai@griffithuni.edu.ua
+
+git clone [url]
+
+git add [file name]
+
+git commit -m "(committed message)" [file name]
+git push -u origin master
+git remote add origin master (url)
